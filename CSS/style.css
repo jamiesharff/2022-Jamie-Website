@@ -1,0 +1,135 @@
+/* MEDIA QUERIES */
+
+/* xs devices less than 576px */
+
+.logo img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+h1 {
+    text-align: center;
+    color: #48ABB0;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.nav-item a{
+    text-transform: uppercase;
+    color: #444444;
+}
+
+.grid {
+    font-weight: 700;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.col {
+    padding: 100px;
+}
+
+.color1 {
+    background-color: #FDA304;
+}
+
+.color2 {
+    background-color: #2DC0C7;
+}
+
+.color3 {
+    background-color: #CC2573;
+}
+
+.color4 {
+    background-color: #4788FE;
+}
+
+.color5 {
+    background-color: #FF5A24;
+}
+
+.color6 {
+    background-color: #7FB55D;
+}
+
+.color7 {
+    background-color: #FF3737;
+}
+
+.color8 {
+    background-color: #764DF1;
+}
+
+.color9 {
+    background-color: #868686;
+}
+
+.footer {
+    color: #8d8d8d;
+    text-align: center;
+    font-size: small;
+}
+
+/* small devices 576px and up */
+@media (min-width: 576px) {
+
+}
+
+/* medium devices, tablets, 768px and up (nav changes here) */
+@media (min-width: 768px) {
+    .grid {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .logo img {
+        display: block;
+        margin: auto;
+        width: 15%;
+      }
+    
+
+    h1 {
+        text-align: center;
+        color: #48ABB0;
+        font-weight: 400;
+        font-size: 1.7rem;
+    }
+}
+
+/* large devices, desktop, 992px and up */
+@media (min-width: 992px) {
+    .grid {
+        font-size: 2rem;
+    }
+
+    .logo img {
+        display: block;
+        margin: auto;
+        width: 8%;
+      }
+    
+
+    h1 {
+        text-align: center;
+        color: #48ABB0;
+        font-weight: 400;
+        font-size: 1.6rem;
+    }
+
+
+}
+
+/* extra large devices, desktop, 1200px and up */
+@media (min-width: 1200px) {
+    .grid {
+        font-size: 2.5rem;
+    }
+}
