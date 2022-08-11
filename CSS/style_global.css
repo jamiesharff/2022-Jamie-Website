@@ -1,0 +1,122 @@
+/* MEDIA QUERIES */
+
+/* xs devices less than 576px */
+
+header {
+    margin-bottom: 1rem;
+}
+
+footer {
+    color: #b4b4b4;
+    text-align: center;
+    font-size: small;
+    padding-top: 1rem;
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+    width: 15%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+h1 {
+    text-align: center;
+    color: #48ABB0;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+h2 {
+    text-align: center;
+    color: #444444;
+    font-weight: 100;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+
+}
+
+.navbar a{
+    text-transform: uppercase;
+    color: #48ABB0;
+    margin: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #48ABB0;
+}
+
+a{
+    color: #48ABB0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #444444;
+  }
+
+p{
+    color: #444444;
+}
+
+.bottom, .bottom p {
+    opacity: 70%;
+    color: #48ABB0;
+}
+
+.bottom:hover {
+    opacity: 100%;
+}
+
+.emojis {
+    font-size: 1.5rem;
+}
+
+.copyright {
+    font-size: .75rem;
+}
+
+.carousel {
+    width: 30%;
+    margin: auto;
+}
+
+/* small devices 576px and up */
+@media (min-width: 576px) {
+    .logo img {
+        width: 7%;
+      }
+}
+
+/* medium devices, tablets, 768px and up (nav changes here) */
+@media (min-width: 768px) {
+
+    h1 {
+        font-size: 1.7rem;
+    }
+}
+
+/* large devices, desktop, 992px and up */
+@media (min-width: 992px) {
+
+    .logo img {
+        width: 5%;
+      }
+    
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+}
+
+/* extra large devices, desktop, 1200px and up */
+@media (min-width: 1200px) {
+
+    .logo img {
+        width: 3%;
+      }
+
+}
