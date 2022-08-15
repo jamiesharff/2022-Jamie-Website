@@ -78,11 +78,6 @@ p{
     font-size: .75rem;
 }
 
-.carousel {
-    width: 30%;
-    margin: auto;
-}
-
 /* small devices 576px and up */
 @media (min-width: 576px) {
     .logo img {

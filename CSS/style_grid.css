@@ -12,7 +12,7 @@
     text-transform: uppercase;
 }
 
-.grid div.col-12>div{
+.grid div.col-12 div{
     padding: 1.5rem;
 }
 
