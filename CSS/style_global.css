@@ -6,6 +6,10 @@ header {
     margin-bottom: 1rem;
 }
 
+.navbar-collapse {
+    text-align: center;
+}
+
 footer {
     color: #b4b4b4;
     text-align: center;
