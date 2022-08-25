@@ -7,13 +7,13 @@
     font-weight: 500;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
 }
 
 .grid div.col-12 div{
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 .grid a {
@@ -65,13 +65,16 @@
 
 /* small devices 576px and up */
 @media (min-width: 576px) {
-
+    .grid div.col-12 div{
+        padding: 1.5rem;
+    }
 }
 
 /* medium devices, tablets, 768px and up (nav changes here) */
 @media (min-width: 768px) {
-
-
+    .grid {
+        font-size: 1.5rem;
+    }
 }
 
 /* large devices, desktop, 992px and up */
