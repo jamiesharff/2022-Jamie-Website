@@ -82,6 +82,11 @@ p{
     font-size: .75rem;
 }
 
+/* #sticky-sidebar {
+    position:fixed;
+    max-width: 20%;
+    } */
+
 /* small devices 576px and up */
 @media (min-width: 576px) {
     .logo img {
