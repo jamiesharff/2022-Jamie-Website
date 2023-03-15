@@ -10,6 +10,7 @@
 
     <!-- css style sheet refernce -->
     <link href="/css/style_global.css" rel="stylesheet">
+    <link href="/css/style_grid.css" rel="stylesheet">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
@@ -30,32 +31,57 @@
           </button>
           <div class="collapse navbar-collapse justify-content-center mt-3" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link px-3" href="/html/index.html">Design</a>
-                <a class="nav-link px-3" href="/html/paintings.html">Paintings</a>
-                <a class="nav-link px-3" href="/html/resume.html">Resume</a>
-                <a class="nav-link active px-3" aria-current="page" href="#">About Me</a>
+              <a class="nav-link px-3" href="/html/about.html">About Me</a>
+              <a class="nav-link active px-3" aria-current="page" href="#">Design</a>
+              <a class="nav-link px-3" href="/html/paintings.html">Paintings</a>
+              <a class="nav-link px-3" href="/html/resume.html">Resume</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
 
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-3  d-none d-sm-block">
-          <div><img class="img-fluid float-end mb-4" src="/images/cutout-headshot.png" alt="Headshot" width="350px" height="auto"></div>
+    <div class="container grid">
+      <div class="row g-4 g-lg-5 px-xl-3">
+        <div class="col-12 col-md-4">
+          <a href="/html/infographics.html"><div class="color1">infographics</div></a>
         </div>
-        <div class="col-10 col-sm-5 mt-lg-3 ps-sm-5 pe-sm-5">
-          <h1 class="text-start display-4">Hi, I'm Jamie.</h1>
-          <p class="mt-2">Welcome to my website. I created it from scratch using Bootstrap, HTML, and CSS, with Visual Studio Code. I am currently a UX/UI designer at <a href="https://www.lifeextension.com" target="_blank">Life&nbsp;Extension</a>. Feel free to explore my site and to contact me with any questions.</p>
-          <p><strong>Email: </strong> <a href = "mailto: jamiesharff@gmail.com">jamiesharff@gmail.com</a>
-          <p><strong>Linked In: </strong><a href="https://www.linkedin.com/in/jsharff" target="_blank">www.linkedin.com/in/jsharff</a></p>
-          <a href="/html/index.html"><button class="btn mt-2">View My Work</button></a>
+
+        <div class="col-12 col-md-4">
+          <a href="/html/logos.html"><div class="color2">logos</div></a>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <a href="/html/web.html"><div class="color3">web & digital</div></a>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <a href="/html/illustrations.html"><div class="color4">illustrations</div></a>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <a href="/html/social.html"><div class="color5">social</div></a>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <a href="/html/shirts.html"><div class="color6">shirts</div></a>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <a href="/html/giftcards.html"><div class="color7">gift cards</div></a>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <a href="/html/emails.html"><div class="color8">emails</div></a> 
+        </div>
+
+        <div class="col-12 col-md-4">
+          <a href="/html/print.html"><div class="color9">print</div></a>
         </div>
       </div>
     </div>
 
-     <footer class="bottom">
+    <footer class="bottom">
       <hr>
       <div class="row m-3 emojis">
         <div class="col-6 text-end"><a href="https://www.linkedin.com/in/jsharff/" target="_blank"><i class="fa fa-linkedin"></i></a></div>
