@@ -82,16 +82,7 @@ p{
     font-size: .75rem;
 }
 
-.button-background {
-    background-color:#48ABB0;
-}
-
-.btn {
-    background-color: #48ABB0;
-    color: #ffffff;
-}
-
-.btn:active{
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #48ABB0;
 }
 
