@@ -82,6 +82,19 @@ p{
     font-size: .75rem;
 }
 
+.button-background {
+    background-color:#48ABB0;
+}
+
+.btn {
+    background-color: #48ABB0;
+    color: #ffffff;
+}
+
+.btn:active{
+    background-color: #48ABB0;
+}
+
 /* #sticky-sidebar {
     position:fixed;
     max-width: 20%;
