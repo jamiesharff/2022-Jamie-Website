@@ -1,2 +1,13 @@
 # Block clickjacking
 Header always append X-Frame-Options SAMEORIGIN
+
+# Block clickjacking
+Header set X-Frame-Options DENY
+
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^http://kadinenterprises.com:8000/$ [OR]
+  RewriteCond %{HTTP_HOST} ^www.kadinenterprises.com:8000/$
+  RewriteRule (.*)$ https://www.jamiesharff.com/$1 [R=301,L]
+</IfModule>
