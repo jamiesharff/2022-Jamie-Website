@@ -15,4 +15,4 @@ Header set X-Frame-Options DENY
 
 RewriteEngine On
 
-RewriteRule ^http://kadinenterprises.com:8000/?$ https://www.jamiesharff.com
+RewriteRule ^kadinenterprises.com:8000/?$ jamiesharff.com
