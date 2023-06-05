@@ -82,9 +82,17 @@ p{
     font-size: .75rem;
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+.btn, .btn:visited {
     background-color: #48ABB0;
+    outline: none;
+    color: #ffffff;
 }
+
+.btn:hover, .btn:active, .btn:focus{
+    border: 1px solid #48ABB0;
+    background-color: #ffffff;
+    color: #48ABB0;
+  }
 
 /* #sticky-sidebar {
     position:fixed;
